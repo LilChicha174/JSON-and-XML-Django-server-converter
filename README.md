@@ -16,20 +16,20 @@ JSON-and-XML-Django-server-converter - это веб-приложение, ра�
 ### Установка
 
 1. Клонируйте репозиторий на свой компьютер:
-git clone https://github.com/LilChicha174/JSON-and-XML-Django-server-converter.git
+`git clone https://github.com/LilChicha174/JSON-and-XML-Django-server-converter.git`
 
 2. Перейдите в каталог проекта:
 cd JSON-and-XML-Django-server-converter
 
 3. Создайте и активируйте виртуальное окружение:
-python3 -m venv venv
-source venv/bin/activate
+`python3 -m venv venv`
+`source venv/bin/activate`
 
 4. Установите зависимости:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 5. Запустите сервер разработки:
-python manage.py runserver
+`python manage.py runserver`
 
 
 Приложение теперь доступно по адресу `http://127.0.0.1:8000/`.
@@ -52,9 +52,6 @@ python manage.py runserver
 
 - LilChicha174 - автор проекта и основной разработчик
 
-## Лицензия
-
-Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для получения дополнительной информации.
 
 
 

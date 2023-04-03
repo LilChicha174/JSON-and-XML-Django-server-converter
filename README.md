@@ -1,95 +1,64 @@
 # JSON-and-XML-Django-server-converter
-Django-сервер осуществляющий конвертацию данных, переданных в запросе, в необходимый xml-формат и наоборот
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T2A]{fontenc}
-\usepackage[russian]{babel}
-\usepackage{hyperref}
 
-\title{JSON-and-XML-Django-server-converter}
-\date{}
-\begin{document}
-
-\maketitle
-
-\section*{Описание}
+## Описание
 
 JSON-and-XML-Django-server-converter - это веб-приложение, разработанное на фреймворке Django, предназначенное для конвертации данных между форматами JSON и XML. Приложение позволяет пользователям загружать файлы в одном из форматов и преобразовывать их в другой формат, а затем скачивать результат.
 
-\section*{Установка и настройка}
+## Установка и настройка
 
-\subsection*{Требования}
+### Требования
 
 Для работы приложения необходимо иметь установленное:
 
-\begin{itemize}
-\item Python 3.6 или выше
-\item Django 3.2 или выше
-\end{itemize}
+- Python 3.6 или выше
+- Django 3.2 или выше
 
-\subsection*{Установка}
+### Установка
 
-\begin{enumerate}
-\item Клонируйте репозиторий на свой компьютер:
-
-\begin{verbatim}
+1. Клонируйте репозиторий на свой компьютер:
 git clone https://github.com/LilChicha174/JSON-and-XML-Django-server-converter.git
-\end{verbatim}
 
-\item Перейдите в каталог проекта:
-
-\begin{verbatim}
+2. Перейдите в каталог проекта:
 cd JSON-and-XML-Django-server-converter
-\end{verbatim}
 
-\item Создайте и активируйте виртуальное окружение:
-
-\begin{verbatim}
+3. Создайте и активируйте виртуальное окружение:
 python3 -m venv venv
 source venv/bin/activate
-\end{verbatim}
 
-\item Установите зависимости:
-
-\begin{verbatim}
+4. Установите зависимости:
 pip install -r requirements.txt
-\end{verbatim}
 
-\item Примените миграции:
-
-\begin{verbatim}
-python manage.py migrate
-\end{verbatim}
-
-\item Запустите сервер разработки:
-
-\begin{verbatim}
+5. Запустите сервер разработки:
 python manage.py runserver
-\end{verbatim}
 
-\end{enumerate}
 
-Приложение теперь доступно по адресу \url{http://127.0.0.1:8000/}.
+Приложение теперь доступно по адресу `http://127.0.0.1:8000/`.
 
-\section*{Использование}
+## Использование
 
-\begin{enumerate}
-\item Откройте веб-приложение в браузере по адресу \url{http://127.0.0.1:8000/}.
-\item Выберите файл в формате JSON или XML, который вы хотите конвертировать.
-\item Нажмите кнопку "Загрузить файл" для загрузки файла на сервер.
-\item Выберите формат, в который хотите преобразовать загруженный файл: JSON или XML.
-\item Нажмите кнопку "Конвертировать" для начала процесса конвертации.
-\item Скачайте преобразованный файл, нажав кнопку "Скачать".
-\end{enumerate}
+1. Откройте веб-приложение в браузере по адресу `http://127.0.0.1:8000/`.
 
-\section*{Разработчики}
+2. Выберите файл в формате JSON или XML, который вы хотите конвертировать.
 
-\begin{itemize}
-\item LilChicha174 - автор проекта и основной разработчик
-\end{itemize}
+3. Нажмите кнопку "Загрузить файл" для загрузки файла на сервер.
 
-\section*{Лицензия}
+4. Выберите формат, в который хотите преобразовать загруженный файл: JSON или XML.
 
-Этот проект лицензирован под MIT License - см. файл \texttt{LICENSE} для получения дополнительной информации.
+5. Нажмите кнопку "Конвертировать" для начала процесса конвертации.
 
-\end{document}
+6. Скачайте преобразованный файл, нажав кнопку "Скачать".
+
+## Разработчики
+
+- LilChicha174 - автор проекта и основной разработчик
+
+## Лицензия
+
+Этот проект лицензирован под MIT License - см. файл [LICENSE](LICENSE) для получения дополнительной информации.
+
+
+
+
+
+
+

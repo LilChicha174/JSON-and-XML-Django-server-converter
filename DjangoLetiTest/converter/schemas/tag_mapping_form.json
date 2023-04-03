@@ -1,0 +1,21 @@
+{
+    "IdDocumentType": "passport_type_id",
+    "DocSeries": "passport_series",
+    "DocNumber": "passport_number",
+    "IssueDate": "passport_begda",
+    "DocOrganization": "passport_issued_by",
+    "SubdivisionCode": "passport_org_code",
+    "IdOksm": "citizenship_id",
+    "Surname": "second_name",
+    "Name": "first_name",
+    "Patronymic": "middle_name",
+    "ExpirationDate": "passport_endda",
+    "ProlongationDate": "passport_begda",
+    "IdGender": "dict_sex_id",
+    "Birthplace": "motherland",
+    "Phone": "tel_mobile",
+    "IdJwt": "id",
+    "IdObject": "user_id",
+    "DateAvailabilityEduDoc": "diploma_date",
+    "FullAddr": "address_txt1"
+}

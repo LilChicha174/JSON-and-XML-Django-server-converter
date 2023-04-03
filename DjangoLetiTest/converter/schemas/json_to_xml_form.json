@@ -1,0 +1,34 @@
+{
+    "Identification": {
+        "IdDocumentType": null,
+        "DocName": null,
+        "DocSeries": null,
+        "DocNumber": null,
+        "IssueDate": null,
+        "DocOrganization": null,
+        "Fields": {}
+    },
+    "Snils": null,
+    "IdGender": null,
+    "Birthday": null,
+    "Birthplace": null,
+    "Phone": null,
+    "Email": null,
+    "IdOksm": null,
+    "AddressList": {
+        "Address": [
+            {
+                "IsRegistration": null,
+                "FullAddr": null,
+                "IdRegion": null,
+                "City": null
+            },
+            {
+                "IsRegistration": null,
+                "FullAddr": null,
+                "IdRegion": null,
+                "City": null
+            }
+        ]
+    }
+}

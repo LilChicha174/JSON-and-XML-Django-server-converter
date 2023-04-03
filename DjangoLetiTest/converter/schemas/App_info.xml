@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageData>
+    <IdJwt>12345</IdJwt>
+    <EntityAction>Create</EntityAction>
+    <SuccessResultList>
+        <Entrant>
+            <IdObject>1234567</IdObject>
+            <Guid>123e4567-e89b-12d3-a456-426655440000</Guid>
+            <Snils>12345678901</Snils>
+            <IdGender>1</IdGender>
+            <Birthday>1995-01-01</Birthday>
+            <Birthplace>Москва, Россия</Birthplace>
+            <Phone>+7(900)1234567</Phone>
+            <Email>example@example.com</Email>
+            <AvailabilityEduDoc>true</AvailabilityEduDoc>
+            <DateAvailabilityEduDoc>2022-01-01T12:30:45Z</DateAvailabilityEduDoc>
+            <Surname>Иванов</Surname>
+            <Name>Иван</Name>
+            <Patronymic>Иванович</Patronymic>
+            <IdOksm>643</IdOksm>
+            <FreeEducationReason>
+                <IdFreeEducationReason>5678</IdFreeEducationReason>
+                <IdOksmFreeEducationReason>91011</IdOksmFreeEducationReason>
+            </FreeEducationReason>
+            <AddressList>
+                <Address>
+                    <IsRegistration>true</IsRegistration>
+                    <FullAddr>ул. Примерная, д.1, кв.1, г. Москва, Россия,123456</FullAddr>
+                    <IdRegion>77</IdRegion>
+                    <City>Москва</City>
+                </Address>
+            </AddressList>
+            <DocumentList>
+                <Document>
+                    <Guid>123e4567-e89b-12d3-a456-426655440001</Guid>
+                    <FileHash>3a9c7ab30f5e4b7f1234567890abcdef</FileHash>
+                    <IdDocumentType>1</IdDocumentType>
+                    <DocName>Паспорт гражданина РФ</DocName>
+                    <DocSeries>1234</DocSeries>
+                    <DocNumber>567890</DocNumber>
+                    <IssueDate>2010-01-01</IssueDate>
+                    <DocOrganization>УФМС России по г. Москве</DocOrganization>
+                    <IdCheckStatus>2</IdCheckStatus>
+                    <IdAchievementCategory>3</IdAchievementCategory>
+                </Document>
+            </DocumentList>
+            <Photo>
+                <FileHash>3a9c7ab30f5e4b7f1234567890abcdef</FileHash>
+                <Fui>123e4567-e89b-12d3-a456-426655440002</Fui>
+            </Photo>
+        </Entrant>
+    </SuccessResultList>
+</PackageData>

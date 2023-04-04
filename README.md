@@ -13,7 +13,7 @@ JSON-and-XML-Django-server-converter - это веб-приложение, ра�
 - Python 3.6 или выше
 - Django 3.2 или выше
 
-### Установка
+### Установка (пример на Windows)
 
 1. Клонируйте репозиторий на свой компьютер:
 ```bash
@@ -27,7 +27,7 @@ cd JSON-and-XML-Django-server-converter/DjangoLetiTest
 
 3. Создайте и активируйте виртуальное окружение:
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 ```
 
@@ -36,7 +36,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-5. Запустите сервер разработки:
+5. Примените миграции:
+```bash
+python manage.py migrate
+```
+
+6. Запустите сервер разработки:
 ```bash
 python manage.py runserver
 ```

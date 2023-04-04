@@ -22,7 +22,7 @@ git clone https://github.com/LilChicha174/JSON-and-XML-Django-server-converter.g
 
 2. Перейдите в каталог проекта:
 ```bash
-cd JSON-and-XML-Django-server-converter
+cd JSON-and-XML-Django-server-converter/DjangoLetiTest
 ```
 
 3. Создайте и активируйте виртуальное окружение:
